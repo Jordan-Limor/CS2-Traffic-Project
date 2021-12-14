@@ -23,7 +23,7 @@ void add_to_street(street* st, car* newcar) {
 
     }
     if (is_full(st)) {
-        printf("Street %s is filled", st->street_name);
+        printf("Street %s is filled\n", st->street_name);
         return;
     }
 
