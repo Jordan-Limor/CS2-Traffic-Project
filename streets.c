@@ -33,6 +33,7 @@ int is_full(street* st) {
     return (st->num_cars == st->maxcarcount);
 }
 
+// Faye Van Broeck
 void print_street(street* st) {
     for (int i = 0; i < st->maxcarcount - st->num_cars; i++) {
         printf(". ");
